@@ -1,3 +1,4 @@
+# Instructions and Commands
 ## Update Ubuntu
 sudo apt-get update -y
 sudo apt-get upgrade -y
@@ -21,7 +22,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 ## Docker images 
-# https://hub.docker.com/r/bitnami/prometheus
+## https://hub.docker.com/r/bitnami/prometheus
 docker pull bitnami/prometheus
 
 ## Persisting the docker database
